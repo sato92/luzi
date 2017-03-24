@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/Sato/.m2/repository/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.jar"/>
+  <path value="/Users/Sato/.m2/repository/javax/el/el-api/2.2/el-api-2.2.jar"/>
+  <path value="/Users/Sato/.m2/repository/org/primefaces/primefaces/6.0/primefaces-6.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-6.0.jar/meta-inf/faces-config.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-6.0.jar/meta-inf/primefaces-p.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-6.0.jar/meta-inf/primefaces-pm.taglib.xml" project="prime"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/Sato/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"/>
+  <path value="/prime/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="prime"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/Sato/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/Users/Sato/.m2/repository/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/html_basic.tld" project="prime"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/jsf_core.tld" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.taglib.xml" project="prime"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.tld" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="prime"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/Sato/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+  <path value="/Users/Sato/.m2/repository/org/primefaces/extensions/primefaces-extensions/6.0.0/primefaces-extensions-6.0.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-extensions-6.0.0.jar/meta-inf/faces-config.xml" project="prime"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-extensions-6.0.0.jar/meta-inf/primefaces-extensions.taglib.xml" project="prime"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/Sato/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="/Users/Sato/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <path value="/Users/Sato/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="/Users/Sato/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar"/>
+  <path value="/Users/Sato/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"/>
+  <path value="/Users/Sato/Documents/source/JSF_EAP7_Example/prime/dev/theme/ui-lightness-1.0.10.jar"/>
+  <path value="/Users/Sato/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource declaration="true" name="%2;" path="%1"/>
+   <linked-resource name="%0;" path="%3"/>
+   <linked-resource declaration="true" name="%5;" path="%4"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="26" name="%6" offset="17489" path="%7"/>
+   <linked-el length="30" name="%8" offset="428" path="%9"/>
+   <linked-el length="33" name="%8" offset="669" path="%9"/>
+   <linked-el length="33" name="%8" offset="549" path="%9"/>
+   <linked-el length="56" name="%10" offset="6410" path="%7"/>
+   <linked-el length="56" name="%11" offset="6410" path="%7"/>
+   <linked-el length="36" name="%12" offset="15835" path="%7"/>
+   <linked-el length="25" name="%13" offset="17426" path="%7"/>
+   <linked-el length="31" name="%14" offset="16207" path="%7"/>
+   <linked-el length="25" name="%14" offset="17426" path="%7"/>
+   <linked-el length="27" name="%14" offset="17554" path="%7"/>
+   <linked-el length="26" name="%14" offset="17489" path="%7"/>
+   <linked-el length="37" name="%14" offset="17238" path="%7"/>
+   <linked-el length="39" name="%14" offset="17125" path="%7"/>
+   <linked-el length="45" name="%14" offset="16855" path="%7"/>
+   <linked-el length="38" name="%14" offset="17351" path="%7"/>
+   <linked-el length="56" name="%14" offset="6410" path="%7"/>
+   <linked-el length="34" name="%14" offset="16969" path="%7"/>
+   <linked-el length="36" name="%14" offset="15835" path="%7"/>
+   <linked-el length="39" name="%15" offset="17125" path="%7"/>
+   <linked-el length="25" name="%16" offset="17426" path="%7"/>
+   <linked-el length="56" name="%17" offset="6410" path="%7"/>
+   <linked-el length="26" name="%18" offset="17489" path="%7"/>
+   <linked-el length="56" name="%19" offset="6410" path="%7"/>
+   <linked-el length="39" name="%20" offset="17125" path="%7"/>
+   <linked-el length="37" name="%21" offset="17238" path="%7"/>
+   <linked-el length="39" name="%22" offset="17125" path="%7"/>
+   <linked-el length="38" name="%23" offset="17351" path="%7"/>
+   <linked-el length="38" name="%24" offset="17351" path="%7"/>
+   <linked-el length="31" name="%25" offset="16207" path="%7"/>
+   <linked-el length="45" name="%25" offset="16855" path="%7"/>
+   <linked-el length="34" name="%25" offset="16969" path="%7"/>
+   <linked-el length="27" name="%26" offset="17554" path="%7"/>
+   <linked-el length="31" name="%27" offset="16207" path="%7"/>
+   <linked-el length="45" name="%27" offset="16855" path="%7"/>
+   <linked-el length="34" name="%27" offset="16969" path="%7"/>
+   <linked-el length="56" name="%28" offset="6410" path="%7"/>
+   <linked-el length="35" name="%2" offset="775" path="%9"/>
+   <linked-el length="30" name="%2" offset="428" path="%9"/>
+   <linked-el length="33" name="%2" offset="669" path="%9"/>
+   <linked-el length="33" name="%2" offset="549" path="%9"/>
+   <linked-el length="36" name="%29" offset="15835" path="%7"/>
+   <linked-el length="39" name="%30" offset="17125" path="%7"/>
+   <linked-el length="35" name="%1" offset="775" path="%9"/>
+   <linked-el length="30" name="%1" offset="428" path="%9"/>
+   <linked-el length="33" name="%1" offset="669" path="%9"/>
+   <linked-el length="33" name="%1" offset="549" path="%9"/>
+   <linked-el length="37" name="%31" offset="17238" path="%7"/>
+   <linked-el length="37" name="%32" offset="17238" path="%7"/>
+   <linked-el length="38" name="%32" offset="17351" path="%7"/>
+   <linked-el length="45" name="%33" offset="16855" path="%7"/>
+   <linked-el length="27" name="%34" offset="17554" path="%7"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="jboss.http.port" value="%6"/>
+  <alias path="/prime/src/main/java/at/luzi/entity/User.java" value="%8"/>
+  <alias path="jboss.deployment.scanner.rollback" value="%10"/>
+  <alias path="jboss.deployment.scanner.rollback.on" value="%11"/>
+  <alias path="/prime/src/main/java/at/luzi/service/UserService.java" value="%0"/>
+  <alias path="jboss.home.dir" value="%12"/>
+  <alias path="luziController" value="%5"/>
+  <alias path="jboss.ajp.port" value="%13"/>
+  <alias path="jboss" value="%14"/>
+  <alias path="jboss.socket" value="%15"/>
+  <alias path="/prime/dev/server/standalone.xml" value="%7"/>
+  <alias path="jboss.ajp" value="%16"/>
+  <alias path="jboss.deployment" value="%17"/>
+  <alias path="jboss.http" value="%18"/>
+  <alias path="jboss.deployment.scanner" value="%19"/>
+  <alias path="offset" value="%20"/>
+  <alias
+   path="/prime/src/main/java/at/luzi/controller/LuziController.java" value="%4"/>
+  <alias path="jboss.management.http" value="%21"/>
+  <alias path="jboss.socket.binding.port" value="%22"/>
+  <alias path="jboss.management.https.port" value="%23"/>
+  <alias path="/prime/src/main/java/at/luzi/cdi/DatabaseProducer.java" value="%3"/>
+  <alias path="jboss.management.https" value="%24"/>
+  <alias path="jboss.bind" value="%25"/>
+  <alias path="jboss.https" value="%26"/>
+  <alias path="jboss.bind.address" value="%27"/>
+  <alias path="/prime/src/main/webapp/views/main.xhtml" value="%9"/>
+  <alias path="userController" value="%2"/>
+  <alias path="jboss.deployment.scanner.rollback.on.failure" value="%28"/>
+  <alias path="jboss.home" value="%29"/>
+  <alias path="jboss.socket.binding" value="%30"/>
+  <alias
+   path="/prime/src/main/java/at/luzi/controller/UserController.java" value="%1"/>
+  <alias path="jboss.management.http.port" value="%31"/>
+  <alias path="jboss.management" value="%32"/>
+  <alias path="jboss.bind.address.management" value="%33"/>
+  <alias path="jboss.https.port" value="%34"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://xmlns.jcp.org/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://xmlns.jcp.org/jsf/facelets">
+   <prefix>ui</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui/extensions">
+   <prefix>pe</prefix>
+  </uri>
+  <uri value="http://xmlns.jcp.org/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
+  </uri>
+  <uri value="http://primefaces.org/mobile">
+   <prefix>pm</prefix>
+  </uri>
+ </uris>
+</kb-project>
